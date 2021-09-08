@@ -2,7 +2,7 @@
 spring:
 
   application:
-    name: product-catalog
+    name: agteway
 
   cloud:
     config:

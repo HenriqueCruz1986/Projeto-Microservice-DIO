@@ -1,5 +1,6 @@
 package projeto.microservice.productcatalog.config;
 
+import com.bertoncelj.jdbi.entitymapper.EntityMapper;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -8,7 +9,6 @@ import org.springframework.data.elasticsearch.client.ClientConfiguration;
 import org.springframework.data.elasticsearch.client.RestClients;
 import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfiguration;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
-import javax.swing.text.html.parser.Entity;
 
 @Configuration
 @EnableElasticsearchRepositories(basePackages = "projeto.microservice.productcatalog.repository")
